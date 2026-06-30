@@ -18,6 +18,8 @@ data** — no scraping, no labelling, no distillation. Weights + a self-containe
 inference file are here and on
 [Hugging Face](https://huggingface.co/vukrosic/nano-case).
 
+📄 [Technical report (PDF)](report/nano-case-report.pdf) · 📝 [Full writeup (gist)](https://gist.github.com/vukrosic/ee6bcffad64d90efa59e4874f78a4397)
+
 ## Why a model and not a regex
 
 Converting a *clean* identifier between cases is a solved, free problem — a regex
