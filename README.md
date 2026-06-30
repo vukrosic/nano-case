@@ -1,9 +1,10 @@
 # nano-case
 
-A **1,016,960-parameter** (~1M) byte-level transformer that converts a messy
-identifier to a target case style — `snake`, `kebab`, `camel`, `pascal`, `const` —
-and, crucially, segments **boundary-destroyed** inputs (no separators, one global
-case: `sdkmodel`, `SENDREQUEST`) that a regular expression provably cannot split.
+Converts a messy identifier to a target case style — `snake`, `kebab`, `camel`,
+`pascal`, `const` — and, crucially, segments **boundary-destroyed** inputs (no
+separators, one global case: `sdkmodel`, `HTTPREQUESTHANDLER`) that a regular
+expression provably cannot split. A **~1M-parameter (1,016,960) byte-level
+transformer**.
 
 ```
 const  | sdkmodel          => SDK_MODEL
